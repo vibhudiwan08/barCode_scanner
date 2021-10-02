@@ -46,7 +46,7 @@ export default class ScanScreen extends React.Component {
 
            <BarCodeScanner
           //   onBarCodeScanned={scanned ?  this.handleBarCodeScanned :undefined }
-          //   onBarCodeScanned={scanned ? undefined : this.handleBarCodeScanned}
+             onBarCodeScanned={scanned ? undefined : this.handleBarCodeScanned}
           //   onBarCodeScanned={scanned : undefined ? this.handleBarCodeScanned}
           //   onBarCodeScanned={ this.handleBarCodeScanned}
              style={StyleSheet.absoluteFillObject}
